@@ -1,5 +1,6 @@
 package com.example.demo.dao;
 
+import com.example.demo.entities.Department;
 import com.example.demo.entities.Seller;
 
 import java.sql.SQLException;
@@ -12,4 +13,5 @@ public interface SellerDao {
   void deleteById(Integer id);
   Seller findById(Integer id) throws SQLException;
   List<Seller> finAll();
+  List<Seller> findByDepartment(Department department);
 }
