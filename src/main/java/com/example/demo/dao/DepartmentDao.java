@@ -4,7 +4,7 @@ import com.example.demo.entities.Department;
 
 import java.util.List;
 
-public interface DepartementDao {
+public interface DepartmentDao {
 
   void insert(Department obj);
   void update(Department obj);
