@@ -9,6 +9,8 @@ public class DaoFactory {
   public static SellerDao createSellerDao(){
     return  new SellerDaoJDBC(DB.getConnection());
   }
+  //teste
+  //teste
 
   public  static  DepartmentDao createDepartmentDao(){
     return new DepartmentDaoJDBC(DB.getConnection());
